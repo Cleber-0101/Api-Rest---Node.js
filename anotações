@@ -1,0 +1,40 @@
+API REST
+
+fluxo : Requisição e resposta ou seja => (req, res)
+
+frontend :  Recebe os dados e Processa
+
+Resposta : Vem atraves de uma estrutura de dados JSON 
+
+
+
+Rotas :
+
+//Busca todos os usuarios 
+GET /usuarios → traz a lista de usuários.
+
+// Busca usuario especifico com o ID
+GET /usuarios/1 → traz o usuário com ID 1.
+
+//Criar um usuario ou lista de usuarios
+POST /usuarios → cria um novo usuário.
+
+// Edita os dados de um usuario baseado na busca por ID 
+PUT /usuarios/1 → atualiza o usuário 1.
+
+// Deleta um usuario da Base de dados Baseado na Busca por ID
+DELETE /usuarios/1 → apaga o usuário 1.
+
+
+Vantagens de ter construir uma APi REST 
+> Varios cliente e um unico frontend
+> comunicação padronizada 
+(web , mobile , desktop)
+
+> Query params = ?node=Node.js
+> Route params = /curso/2
+> Request Body = {nome: 'Node.js', tipo: 'Backend'}
+
+
+> Nodemon renderiza o codigo todas as vezes que atualizamos o codigo
+- comando yarn add nodemon -D (Biblioteca)

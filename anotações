@@ -40,3 +40,7 @@ Vantagens de ter construir uma APi REST
 - comando yarn add nodemon -D (Biblioteca)
 
 > Crud > create > read > update > delete 
+
+
+> O que é middwares
+-São funções que ficam no meio do caminho entre a requisição (request) e a resposta (response) do servidor para o front-end

@@ -38,3 +38,5 @@ Vantagens de ter construir uma APi REST
 
 > Nodemon renderiza o codigo todas as vezes que atualizamos o codigo
 - comando yarn add nodemon -D (Biblioteca)
+
+> Crud > create > read > update > delete 
